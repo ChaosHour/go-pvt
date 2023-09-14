@@ -1,6 +1,4 @@
 // A Go cli that will find all procedures, functions, and views with definer.
-// The tool should be able to connect to a MySQL instance and run the queries to find the objects.
-// Print the results, the total and each object to the screen in color using pretty table readable format.
 
 package main
 

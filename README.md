@@ -1,5 +1,5 @@
 # go-pvt
-A Go cli that will find all MySQL stored procedures, functions, and views with definer for a given DB.
+A Go cli that will find all MySQL stored procedures, functions, views and events with definer for a given DB.
 
 
 ## Usage
