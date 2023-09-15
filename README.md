@@ -55,7 +55,7 @@ my_event                (EVENT)         root@localhost
 ## How to install
 ```Go
 
-go install github.com/ChaosHour/go-pvt@latest
+go install github.com/ChaosHour/go-pvt
 
 
 To build:
