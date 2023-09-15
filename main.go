@@ -200,6 +200,12 @@ func printResults(objects []string) {
 func main() {
 	flag.Parse()
 
+	// if no flags are set, print the usage and exit
+	if len(os.Args) == 1 {
+		flag.Usage()
+		os.Exit(0)
+	}
+
 	// Read the ~/.my.cnf file to get the database credentials
 	err := readMyCnf()
 	if err != nil {
