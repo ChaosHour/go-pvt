@@ -1,4 +1,4 @@
-module github/ChaosHour/go-pvt
+module github.com/ChaosHour/go-pvt
 
 go 1.21.1
 
