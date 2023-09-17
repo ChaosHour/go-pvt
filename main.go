@@ -206,6 +206,12 @@ func main() {
 		os.Exit(0)
 	}
 
+	// make sure that source and at least one of database or show is set
+	if *source == "" || (*database == "" && *show == false) {
+		flag.Usage()
+		os.Exit(1)
+	}
+
 	// Read the ~/.my.cnf file to get the database credentials
 	err := readMyCnf()
 	if err != nil {
