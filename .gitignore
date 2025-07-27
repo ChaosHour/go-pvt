@@ -19,3 +19,11 @@
 
 # Go workspace file
 go.work
+
+# sql
+sql_views
+flyway-views
+flyway-views-KEEP
+
+# txt files
+*.txt
